@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: rgb(205, 205, 223);
+        }
+    </style>
+</head>
+<body>
+    <div class="items-list"></div>
+    <h1>List of Items</h1>
+    <% if (items.length > 0) { %>
+        <% items.forEach(item => { %>
+            <li><%= item.item %></li>
+        <% }) %>
+        <% } %>
+    <form action="/" method="post">
+    <input type="text" name="str">
+    <input type="submit" value="Add Item">
+</form>
+</body>
+</html>
