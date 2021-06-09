@@ -1,0 +1,65 @@
+body {
+  margin: 35px;
+}
+header {
+  font-size: 28px;
+  margin-top: 20px;
+}
+hr{
+  height: 2px;
+  border-width:0;
+  color:#747272;
+  background-color:gray;
+}
+li {
+  line-height: 1.4;
+  padding: 7px;
+  margin-left: 40px;
+}
+.codeCase {
+  background-color: lightgrey;
+  font-size: 12px;
+  padding: 15px;
+  margin: 20px;
+  line-height: 1.6;
+  border-radius: 8px;
+}
+#main-doc {
+  margin-left: 300px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+#navbar {
+  top: 0px;
+  margin: 0px;
+  left: 0px;
+  width: 300px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+#navbar a {
+  color: black;
+  padding: 0px;
+  text-align: justify;
+  font-size: 20px;
+  text-decoration: none;
+}
+.nav-link li {
+  border: 1px;
+  padding: 5px;
+  padding-left: 30px;
+  list-style: none;
+  position: relative;
+  left: -50px;
+  width: 100%;
+}
+P {
+  font-size: 16px;
+  text-align: justify;
+  line-height: 20px;
+}
+#Reference{
+  padding: 8px 0 40px 0;
+}

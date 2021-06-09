@@ -1,0 +1,16 @@
+.thumbnail {background-color: #eee;}
+    body {margin-top: 33px;}
+    .thumbnail .caption {background-color: #ddd;
+}
+
+img{
+    max-width: 100%;
+    object-fit: cover;
+   padding: 10px 0 10px 350px;
+}
+div.row hr{
+    height:2px;
+    border-width:0;
+    color:gray;
+    background-color:gray
+}

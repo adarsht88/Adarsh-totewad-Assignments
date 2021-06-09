@@ -1,0 +1,256 @@
+
+
+.container-fluid{ padding: 0; }
+.background{ 
+	width: 100%; height: auto; 
+	background: url(../img/background.jpg); 
+	background-attachment: fixed; padding: 0;  
+}
+
+nav{ 
+	width: 100%; height: 100px; 
+	margin-left: 850px;
+}
+nav .list ul{
+	padding-right: 10px;
+}
+nav .list ul li{
+	 display: inline-block; 
+	 padding: 40px 0 0 40px; transition: 0.5s; 
+	}
+nav .list ul li a{ 
+	color: #fff; text-decoration: none; 
+	 padding-left: 4px; 
+}
+nav .list ul li a:hover{ color: #ff512f; }
+
+
+
+.text-part{  
+	padding: 100px 0 100px 0; 
+	font-family: 'ZCOOL XiaoWei', serif; 
+}
+.text-part h3{ 
+	font-size: 27px; color: 
+	#ff512f !important;
+ }
+.text-part h1{ 
+	font-size: 64px; 
+	font-family: 'Beyond', serif; 
+	padding: 10px 0 20px 0; }
+.text-part .hr1, .text-part .hr2{ 
+	width: 90%; height: 1px; 
+	background-color: #ff512f; }
+.text-part p{ font-size: 22px; 
+	letter-spacing: 2px; 
+	padding: 15px 0 15px 0;
+ } 
+.text-part a{ 
+	text-decoration: none; 
+	color: #fff; font-size: 20px;
+	 border: 1px solid #fff; padding: 6px 20px 9px 20px; 
+}
+.text-part a:hover{ 
+	border-color: #ff512f; 
+	color: #ff512f; 
+}
+
+.text-part .ruller{
+	padding-left: 0;  
+	padding-top: 4px;
+}
+
+.menu{ 
+	padding: 70px 30px 50px 30px; 
+}
+.menu1, .menu2, .menu3, .menu4{
+	 width: 100%; 
+	 height: 200px; 
+	 padding-top: 20px; 
+	}
+.menu-text{
+	 padding: 50px 65px; 
+}
+.menu-text h2{
+	 font-family: 'Beyond', sans-serif;
+	  font-size: 75px; 
+	  color: #ff512f; 
+}
+.menu-text h4{
+	 font-family: 'ZCOOL XiaoWei', serif; 
+	 font-size: 26px; font-weight: 700; 
+	 color: #000; 
+	 padding-top: 5px; 
+}
+.menu-text p{
+	 font-family: 'Montserrat-UltraLight', Arial, sans-serif; 
+	 font-size: 17px; 
+	 font-weight: 500; color: #777; 
+	 padding-top: 15px; 
+	 text-align: center; 
+}
+.menu-text .hr4{ width: 7%; height: 1px; background-color: #403b4a; }
+.menu-text p a{ 
+	font-family: 'ZCOOL XiaoWei', serif; 
+	font-size: 17px; font-weight: 700; 
+	color: #ff512f; text-decoration: none; 
+	padding-bottom: 5px; 
+	border-bottom: 1px solid #ff512f; 
+	transition: 0.4s; 
+}
+.menu-text p a:hover{ 
+	color: #403b4a; 
+	border-bottom-color: #403b4a; 
+}
+
+
+
+
+.services{ 
+	background: url(../img/services.jpg) 100%; 
+	background-repeat: repeat; 
+	background-attachment: fixed;  
+	text-align: center; padding: 80px 50px; 
+}
+.services h3{ 
+	font-size: 23px; 
+	font-family: 'Beyond', sans-serif; 
+	color: #ff512f; 
+}
+.services h1{ 
+	color: #fff; 
+	font-size: 44px; font-weight: 700; 
+	font-family: 'ZCOOL XiaoWei', serif; padding-top: 5px; 
+}
+.services .hr8{ 
+	width: 3%; 
+	height: 1px; 
+	background-color: #ff512f; 
+}
+.boxes{
+	 padding-top: 30px; }
+.boxes .col-md-4{
+	 max-width: 29%;
+	 }
+.boxes .box1, .boxes .box2, .boxes .box3{
+	 border: 1px solid #fff; 
+	 padding: 20px 40px; background-color: #ffffffe6; 
+	 border-radius: 8px; transition: 0.6s; 
+}
+.box1:hover, .box2:hover, .box3:hover{ 
+	background-color: #00000099;
+	 cursor: default; border-color: #00000099; 
+	 transform: scale(1.03); }
+.boxes i{ 
+	font-size: 25px; color: #fff; 
+	border: 1px solid #ff512f; 
+	padding: 10px; border-radius: 50%; 
+	background-color: #ff512f;  }
+.boxes h3{ 
+	font-size: 23px; font-weight: 600;
+	 font-family: 'ZCOOL XiaoWei', sans-serif; 
+	 padding-top: 30px; color: #000; 
+	 padding-bottom: 15px; 
+}
+.boxes p{ 
+	font-size: 16px; 
+	font-weight: 500; 
+	letter-spacing: 0.3px; 
+	color: #333; 
+	text-align: justify-all; }
+
+
+.box1:hover > .fa, .box2:hover > .fa, .box3:hover > .fa{
+	background-color: #fff;
+	color: #ff512f; 
+	border-color: #fff; 
+}
+.box1:hover > h3, .box2:hover > h3, .box3:hover > h3{ color: #ff512f; }
+.box1:hover > p, .box2:hover > p, .box3:hover > p{ 
+	color: #fff; 
+}
+body, html{ margin: 0; padding: 0; overflow-x: hidden !important; }
+
+.reservation{ 
+	padding: 60px 10px; 
+	background-color:#dfdbdb; width: 100%;
+}
+.booking{ padding: 50px 30px; }
+.booking h3{ 
+	font-size: 26px; 
+	font-family: 'Beyond', sans-serif; 
+	color: #ff512f; 
+}
+.booking h2{ 
+	font-size: 30px; 
+	font-weight: 600; 
+	padding-top: 10px; 
+	font-family: 'ZCOOL XiaoWei', sans-serif; 
+	text-transform: uppercase; 
+}
+.booking .hr9{ 
+	width: 10%; height: 1px; 
+	background-color: #403b4a; 
+}
+.booking input{ 
+	width: 100%; 
+	padding: 8px 10px; 
+	margin-bottom: 10px; 
+	border: 1px solid #777; 
+	outline: none; }
+.booking input:nth-child(1){ margin-top: 20px; }
+.booking input::placeholder{ 
+	font-size: 16px;
+	 font-family: 'Montserrat-UltraLight', sans-serif; 
+}
+.booking button{
+	 width: 100%; 
+	 background-color: #403b4a !important; 
+	 border-color: #403b4a !important; padding: 10px 0;
+	  border-radius: 0; transition: 0.5s; 
+}
+.booking button:hover{ cursor: pointer; background-color: #ff512f !important; border-color: #ff512f !important; }
+.left-img{
+	height: 7000px;
+}
+
+.footer{ 
+	background:  url(../img/background.jpg); color: #f5f0f0; 
+	padding-top: 30px;
+}
+.footer .upper-part p{ 
+	font-size: 17px; margin-top: 30px; 
+	font-weight: 500; line-height: 15px; 
+	letter-spacing: 0.8px; 
+	font-family: 'ZCOOL XiaoWei', sans-serif; 
+}
+.footer .upper-part p.change-color{
+	 color: #ff512f; 
+}
+
+.footer .middle-part{ padding: 10px 0; }
+.footer .middle-part a i{ 
+	font-size: 17px; 
+	border: 1px solid #ffffff; 
+	padding: 7px; border-radius: 50%; 
+	margin-left: 15px; 
+	color: #fff; 
+}
+.footer .middle-part .fa-facebook-f{
+	 padding: 7px 12px; 
+}
+.footer .middle-part .fa-instagram{ 
+	padding: 7px 9px; 
+}
+.footer .middle-part a i:hover{ 
+	color: #ff512f; 
+	border-color: #ff512f; 
+}
+.footer .hr10{
+	 width: 100%; 
+	 height: 0.4px; 
+	 background-color: #999; }
+
+.footer .copyright p{ 
+	font-size: 16px; padding: 10px 15px; 
+}
